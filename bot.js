@@ -6,8 +6,14 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'ping') {
-    msg.reply('Pong!');
+  if (msg.content === 'الملك ديلاه') {
+    msg.reply('هلا ؟');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'الملك ديلاه كيف حالك') {
+    msg.reply('الحمدلله بخير :heart:');
   }
 });
 const devs = ["339662775725064192"];
