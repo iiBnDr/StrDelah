@@ -16,7 +16,7 @@ client.on('message', msg => {
     msg.reply('عميي بندر تكفى لا تزعل :heart:');
   }
 });
-const devs = ["339662775725064192"];
+const devs = ["480786946231238686"];
 const adminprefix = ["M"];
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
