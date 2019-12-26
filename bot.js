@@ -6,14 +6,14 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'الملك ديلاه') {
-    msg.reply('هلا ؟');
+  if (msg.content === 'من عمك ديلاه') {
+    msg.reply('عمي بندر وغصباً عني بعد');
   }
 });
 
 client.on('message', msg => {
-  if (msg.content === 'الملك ديلاه كيف حالك') {
-    msg.reply('الحمدلله بخير :heart:');
+  if (msg.content === 'ماسمعت ، من عمك !!؟') {
+    msg.reply('عميي بندر تكفى لا تزعل :heart:');
   }
 });
 const devs = ["339662775725064192"];
